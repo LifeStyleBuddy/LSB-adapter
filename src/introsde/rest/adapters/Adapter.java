@@ -128,7 +128,7 @@ public class Adapter {
 					ing = arr2.getString(a) + "; " + ing;
 				}
 
-				String ingredients = ", " + "\"ingredients\":\"" + ing;
+				String ingredients = ", " + "\"ingredients\":\"" + ing +"\"";
 
 				jsonResponse = "{" + label + image + url + ingredients + "}";
 
@@ -193,7 +193,7 @@ public class Adapter {
 					ing = arr2.getString(a) + "; " + ing;
 				}
 
-				String ingredients = ", " + "\"ingredients\":\"" + ing;
+				String ingredients = ", " + "\"ingredients\":\"" + ing +"\"";
 
 				jsonResponse = "{" + label + image + url + ingredients + "}";
 
